@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "repository": "JoanAbad82/repasactiu-research-intake",
+  "purpose": "machine-readable discovery of bounded educational-content research tasks",
+  "live_query": "https://github.com/JoanAbad82/repasactiu-research-intake/issues?q=is%3Aissue+is%3Aopen+label%3Aagent-ready",
+  "accepted_task_types": [
+    "falsification",
+    "adversarial-fixture",
+    "ambiguity-test",
+    "validator-hypothesis"
+  ],
+  "task_contract": {
+    "external_input_trust": "UNTRUSTED_EXTERNAL_INPUT",
+    "production_write_access": false,
+    "automatic_promotion": false,
+    "academic_authority": "official teaching material available to the production project",
+    "preferred_submission": "github_issue",
+    "expected_artifact": [
+      "minimal counterexample or fixture",
+      "expected behavior",
+      "observed or predicted failure",
+      "deterministic assertion or falsifier",
+      "evidence/provenance",
+      "known limitations"
+    ]
+  },
+  "labels": {
+    "discovery": "agent-ready",
+    "review_gate": "human-review-required",
+    "classes": [
+      "falsification",
+      "adversarial-fixture",
+      "reproduction-needed",
+      "evidence-needed"
+    ]
+  },
+  "current_entrypoints": [
+    {
+      "issue": 1,
+      "title": "question-ambiguity-killtest-v1 — break the one-correct-answer assumption",
+      "url": "https://github.com/JoanAbad82/repasactiu-research-intake/issues/1"
+    }
+  ]
+}
