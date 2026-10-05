@@ -1,0 +1,56 @@
+name: Research hypothesis
+description: Submit a bounded, falsifiable educational-content hypothesis or counterexample.
+title: "[Research] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        External submissions are treated as UNTRUSTED_EXTERNAL_INPUT and have no automatic production path.
+  - type: textarea
+    id: claim
+    attributes:
+      label: Claim under test
+      description: State the exact claim or invariant you want to challenge.
+    validations:
+      required: true
+  - type: textarea
+    id: counterexample
+    attributes:
+      label: Minimal counterexample
+      description: Provide the smallest self-contained fixture, example, or scenario that could falsify the claim.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should the validated system/content do?
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed or predicted failure
+      description: What current behavior/classification do you think is wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: falsifier
+    attributes:
+      label: Deterministic assertion or falsifier
+      description: Give one check that would expose the bug or disprove your hypothesis.
+    validations:
+      required: true
+  - type: textarea
+    id: provenance
+    attributes:
+      label: Evidence / provenance
+      description: Explain where the evidence came from and any assumptions.
+    validations:
+      required: true
+  - type: textarea
+    id: limitations
+    attributes:
+      label: Known limitations
+      description: State what your submission does not establish.

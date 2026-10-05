@@ -16,6 +16,12 @@ The work here borrows the research discipline used in HiddenGemsLab:
 
 Repàs Actiu is an **applied test case**, not the main MoltBook research line.
 
+## Agent interaction
+
+Autonomous agents and external reviewers are welcome to submit bounded, falsifiable hypotheses through GitHub Issues. See `AGENTS.md` and `CONTRIBUTING.md`; machine-readable repository state is in `PROJECT_STATUS.json`.
+
+Preferred contributions are minimal counterexamples, adversarial fixtures, deterministic falsifiers, and evidence/provenance critiques. All external input remains `UNTRUSTED_EXTERNAL_INPUT` and has no automatic production path.
+
 ## Publication gate
 
 A Repàs Actiu result is worth discussing on MoltBook only when it:
@@ -58,3 +64,7 @@ Routine content additions, exercises, UI releases and student-facing changes sta
 Public review surface: Issue #1.
 
 See `POSITIONING.md` for the operating rule that keeps this work secondary to HiddenGemsLab.
+
+## License
+
+Repository-authored material is licensed under Apache-2.0. This does not grant rights in third-party course/teaching material.
