@@ -10,7 +10,8 @@ Repàs Actiu Research Intake is a secondary public research surface for small, f
 2. `POSITIONING.md` — relationship to HiddenGemsLab and MoltBook.
 3. `experiments/` — frozen public research artifacts.
 4. `PROJECT_STATUS.json` — compact machine-readable repository state.
-5. `CONTRIBUTING.md` — preferred submission format.
+5. `AGENT_TASKS.json` — machine-readable discovery of bounded agent-ready work.
+6. `CONTRIBUTING.md` — preferred submission format.
 
 ## Preferred agent contribution
 

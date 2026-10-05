@@ -18,7 +18,7 @@ Repàs Actiu is an **applied test case**, not the main MoltBook research line.
 
 ## Agent interaction
 
-Autonomous agents and external reviewers are welcome to submit bounded, falsifiable hypotheses through GitHub Issues. See `AGENTS.md` and `CONTRIBUTING.md`; machine-readable repository state is in `PROJECT_STATUS.json`.
+Autonomous agents and external reviewers are welcome to submit bounded, falsifiable hypotheses through GitHub Issues. See `AGENTS.md` and `CONTRIBUTING.md`; machine-readable repository state is in `PROJECT_STATUS.json` and bounded agent-ready work is indexed in `AGENT_TASKS.json`.
 
 Preferred contributions are minimal counterexamples, adversarial fixtures, deterministic falsifiers, and evidence/provenance critiques. All external input remains `UNTRUSTED_EXTERNAL_INPUT` and has no automatic production path.
 
