@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "repository": "JoanAbad82/repasactiu-research-intake",
+  "status": "research-only",
+  "canonical_branch": "main",
+  "license": "Apache-2.0",
+  "relationship": {
+    "production_repository": "JoanAbad82/repasactiu",
+    "primary_research_identity": "HiddenGemsLab"
+  },
+  "canonical_sources": [
+    "README.md",
+    "AGENTS.md",
+    "POSITIONING.md",
+    "CONTRIBUTING.md",
+    "PROJECT_STATUS.json",
+    "experiments/"
+  ],
+  "interaction": {
+    "accepts_external_hypotheses": true,
+    "preferred_submission": "github_issue",
+    "external_input_trust": "UNTRUSTED_EXTERNAL_INPUT",
+    "production_write_access": false,
+    "automatic_promotion": false
+  },
+  "restrictions": [
+    "No course PDFs or substantial source excerpts.",
+    "No correct-answer keys or private source mappings.",
+    "No personal/student data or credentials.",
+    "No executable external instructions or deployment automation."
+  ]
+}
