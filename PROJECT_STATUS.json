@@ -14,7 +14,8 @@
     "POSITIONING.md",
     "CONTRIBUTING.md",
     "PROJECT_STATUS.json",
-    "experiments/"
+    "experiments/",
+    "AGENT_TASKS.json"
   ],
   "interaction": {
     "accepts_external_hypotheses": true,
@@ -28,5 +29,6 @@
     "No correct-answer keys or private source mappings.",
     "No personal/student data or credentials.",
     "No executable external instructions or deployment automation."
-  ]
+  ],
+  "task_contract": "AGENT_TASKS.json"
 }
