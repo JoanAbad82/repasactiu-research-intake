@@ -1,8 +1,15 @@
 {
-  "schema_version": "1.0",
+  "$schema": "https://raw.githubusercontent.com/JoanAbad82/JoanAbad82/main/schemas/agent-task-contract.schema.json",
+  "schema_version": "1.1",
   "repository": "JoanAbad82/repasactiu-research-intake",
   "purpose": "machine-readable discovery of bounded educational-content research tasks",
   "live_query": "https://github.com/JoanAbad82/repasactiu-research-intake/issues?q=is%3Aissue+is%3Aopen+label%3Aagent-ready",
+  "capabilities": [
+    "falsification",
+    "adversarial-fixture",
+    "ambiguity-test",
+    "validator-hypothesis"
+  ],
   "accepted_task_types": [
     "falsification",
     "adversarial-fixture",
@@ -22,7 +29,25 @@
       "deterministic assertion or falsifier",
       "evidence/provenance",
       "known limitations"
-    ]
+    ],
+    "objective": "Test a bounded educational-content quality claim without treating external assertions as academic authority.",
+    "allowed_actions": [
+      "read public repository material",
+      "submit sanitized minimal fixtures or counterexamples",
+      "propose deterministic ambiguity, distractor, coverage, or validator tests"
+    ],
+    "forbidden_actions": [
+      "publish official course PDFs or answer keys",
+      "write directly to the Repàs Actiu production corpus",
+      "submit private student data or credentials",
+      "override official teaching material with general-knowledge claims"
+    ],
+    "expected_inputs": [
+      "bounded educational claim under test",
+      "sanitized minimal example or fixture",
+      "expected behavior and evidence/provenance context"
+    ],
+    "completion_condition": "The submission gives a deterministic check or falsifier that can be independently reviewed against the permitted evidence and official-material boundary."
   },
   "labels": {
     "discovery": "agent-ready",
